@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-html, body{
+html, body {
     height: 100%;
 }
 
@@ -12,31 +12,40 @@ h1, h2, h3, h4, h5, h6, p {
 
 nav {
     height: 50px;
-    background-color:rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 
-.sect{
+.sect {
     height: 100%;
     background-color: aqua;
 }
 
-.subSection{
+.subSection {
     height: 50%;
     background-color: bisque;
 }
 
-.sectHome{
-
+.sectHome {
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    overflow: hidden;
 }
 
-.sectAbout{
-
+.sectAbout {
+    background-image: url("../img/s2.png");
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
 }
 
-.sectProjects{
-
+.sectProjects {
+    background-image: url("../img/s3.jpg");
+    background-size: cover;
+    overflow: hidden;
 }
 
-.sectContact{
-
+.sectContact {
+    background-image: url("../img/s2.png");
+    background-size: cover;
+    overflow: hidden;
 }
