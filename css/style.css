@@ -39,15 +39,40 @@ a{
 
 .sectHome {
     background-image: url("../img/header.jpg");
+    text-align: center;
     background-size: cover;
     overflow: hidden;
+}
+
+
+p.quote{
+    color: rgb(212, 255, 0);
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 200px;
 }
 
 .sectAbout {
     background-image: url("../img/s2.png");
     background-size: cover;
     overflow: hidden;
-    background-position: center;
+    text-align: center;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.aboutme{
+    margin-top: 70px;
+}
+
+hr{
+    width: 30%;
+    margin-left: 470px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid rgb(64, 64, 64);
+    padding: 0;
 }
 
 .sectProjects {
