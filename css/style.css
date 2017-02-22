@@ -89,4 +89,22 @@ hr {
     background-image: url("../img/s2.png");
     background-size: cover;
     overflow: hidden;
+    text-align: center;
+    color: black;
+}
+
+#contact{
+    color: black;
+}
+
+#ct{
+    margin-left: 320px;
+}
+
+.icon{
+    color: rgb(0, 247, 255);
+}
+
+.sr-icons{
+    color: rgb(255, 0, 0);
 }
